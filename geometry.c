@@ -74,7 +74,7 @@ double coord_2d_area_triangle(const coord_2d_t *a, const
  coord_2d_t *b, const coord_2d_t *c){
   double L=(a+b+c)*0.5;
   double S=(S*(L-a)*(L-b)*(L-c));
-  double A=pow(S,0.5);
+  double A=pow(S,0.50);
   return A;
 
 }
