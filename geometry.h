@@ -15,11 +15,8 @@ typedef struct coord_2d {
     double x;
     double y;
 } coord_2d_t;
-<<<<<<< HEAD
 double coord_2d_area_triangle(const coord_2d_t *a, const
  coord_2d_t *b, const coord_2d_t *c);
-=======
->>>>>>> d0e52472264e53d3511596128322fba7a12a03b4
 
 /* Return the distance between two 2D coordinates */
 double coord_2d_dist(const coord_2d_t* a, const coord_2d_t* b);
