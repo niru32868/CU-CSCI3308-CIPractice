@@ -1,5 +1,0 @@
-language:c
-complier:gcc
-install:make dep
-script:make test
-sudo:required
